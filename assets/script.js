@@ -21,4 +21,16 @@ for (let i = 0; i < 9; i++) {
     j += 1
 }
 
+var input = $('<input>')
 
+// Function to save input
+function saveInput() {
+    var nineEl = nine.children().eq(2)
+    localStorage.setItem("work", nineEl)
+    var nineInput = localStorage.getItem("work")
+    console.log(nineInput);
+}
+
+var nine = $('#nine');
+
+nine.on('click', saveInput)

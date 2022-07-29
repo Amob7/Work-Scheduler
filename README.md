@@ -1,8 +1,5 @@
 # Coding-Quiz
 
-## Table of Contents
-
-
 ## Description
 
 
